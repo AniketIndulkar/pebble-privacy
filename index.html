@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebble – Privacy Policy</title>
+<meta name="description" content="Privacy policy for Pebble, an expense tracker for Android by NovaNest.">
+<style>
+  :root { --bg:#EEEAE2; --ink:#1B1A17; --sub:#5F5B53; --card:#F7F5F0; --line:rgba(0,0,0,.1); --accent:#B9791F; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111210; --ink:#EDEAE3; --sub:#A8A49B; --card:#1C1C1A; --line:rgba(255,255,255,.12); --accent:#F0B14A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
+  h1 { font-size:36px; line-height:1.1; letter-spacing:-.02em; margin:0 0 6px; font-weight:600; }
+  h2 { font-size:20px; margin:36px 0 8px; font-weight:600; }
+  p, li { color:var(--ink); }
+  .meta { color:var(--sub); font-size:14px; margin:0 0 28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px 20px; margin:20px 0; }
+  .card p { margin:0; }
+  ul { padding-left:22px; }
+  li { margin:6px 0; }
+  a { color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:15px; margin-top:8px; }
+  th, td { text-align:left; vertical-align:top; padding:10px 8px; border-top:1px solid var(--line); }
+  th { color:var(--sub); font-weight:600; border-top:none; }
+  footer { margin-top:48px; color:var(--sub); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pebble privacy policy</h1>
+  <p class="meta">Pebble is an expense tracker for Android, published by NovaNest.<br>Effective 10 October 2026.</p>
+
+  <div class="card">
+    <p><strong>In short:</strong> everything you put into Pebble stays on your phone. Pebble has no accounts, no servers, no advertising and no analytics, and it does not have permission to use the internet. NovaNest never receives your data.</p>
+  </div>
+
+  <h2>What Pebble stores</h2>
+  <p>Pebble keeps the following in a private database on your device:</p>
+  <ul>
+    <li>Expenses you enter: amount, title, category, date, time and any note.</li>
+    <li>Your categories and recurring expenses.</li>
+    <li>Your settings: currency, theme, material, tray view, reduce motion, the app lock, and the Auto-add payments settings.</li>
+  </ul>
+  <p>This database is stored in Android's app-private storage. It is excluded from Android cloud backup and from device-to-device transfer. It is not encrypted by Pebble beyond the protection Android gives to app-private storage.</p>
+
+  <h2>Auto-add payments (notification access)</h2>
+  <p>This feature is off unless you turn it on. Before Android asks you for notification access, Pebble shows a screen explaining what it does, and you must choose to continue.</p>
+  <p>When it is on and you have allowed notification access:</p>
+  <ul>
+    <li>Pebble reads notifications <strong>only</strong> from wallet and banking apps: a built-in list of such apps, and apps that identify themselves as a bank. Notifications from every other app, including messages and email, are ignored without their content being read.</li>
+    <li>From a payment notification Pebble keeps three things: the amount, the merchant name, and the name of the app that showed the notification. These are saved as an ordinary expense that you can edit or delete. The rest of the notification is discarded.</li>
+    <li>Notifications that are not payments (for example refunds, declined payments, balances, offers and security codes) are discarded.</li>
+    <li>All of this happens on your device. Nothing read from a notification is sent anywhere.</li>
+  </ul>
+  <p>You can switch individual apps off under Settings › Sources. You can stop the feature at any time by switching off Auto-add payments in Pebble, which disconnects Pebble from Android's notification service so that it receives no notifications, or by removing Pebble's notification access in Android settings.</p>
+
+  <h2>App lock</h2>
+  <p>If you turn on the lock, Pebble asks Android to confirm your fingerprint, face or screen lock. Android performs the check and tells Pebble only whether it succeeded. Pebble never sees or stores your biometric data, PIN, pattern or password.</p>
+
+  <h2>Exporting your data</h2>
+  <p>Export CSV writes your expenses to a file in the location you choose. From then on that file is outside Pebble's control. If you save it to a cloud folder, that provider's own privacy policy applies.</p>
+
+  <h2>Data collected and shared</h2>
+  <table>
+    <tr><th>Question</th><th>Answer</th></tr>
+    <tr><td>Does NovaNest collect any data from Pebble?</td><td>No. Pebble does not transmit any data off your device.</td></tr>
+    <tr><td>Is any data shared with third parties?</td><td>No.</td></tr>
+    <tr><td>Does Pebble contain advertising, analytics or tracking code?</td><td>No.</td></tr>
+    <tr><td>Does Pebble connect to your bank or wallet account?</td><td>No. It never asks for a bank login. It only reads the notifications those apps show on your phone, and only if you turn that on.</td></tr>
+  </table>
+
+  <h2>Permissions Pebble uses</h2>
+  <ul>
+    <li><strong>Notification access</strong> (optional, granted by you in Android settings): to read payment notifications as described above.</li>
+    <li><strong>Biometric</strong>: to offer the optional app lock.</li>
+    <li><strong>Seeing whether specific wallet and banking apps are installed</strong>: to list them under Sources. Pebble can only see apps on its built-in list, not every app on your phone.</li>
+  </ul>
+  <p>Pebble does not request internet, location, contacts, camera, microphone, SMS or storage permissions.</p>
+
+  <h2>Keeping and deleting your data</h2>
+  <p>Your data stays on your device until you delete it. You can delete individual expenses, categories and recurring expenses in the app. Uninstalling Pebble, or clearing its storage in Android settings, permanently deletes everything. Because NovaNest holds none of your data, there is nothing for us to delete, correct or hand over on request.</p>
+
+  <h2>Children</h2>
+  <p>Pebble is not directed at children and does not knowingly collect personal information from anyone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If Pebble's handling of data changes, this page will be updated and the effective date above will change. Material changes will also be described in the app's release notes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or about Pebble: <a href="mailto:aniketindulkar.ms@gmail.com">aniketindulkar.ms@gmail.com</a></p>
+
+  <footer>© 2026 NovaNest</footer>
+</main>
+</body>
+</html>
